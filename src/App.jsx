@@ -67,7 +67,7 @@ return (
                           amount={convertAmount}
                           currencyOption={options}
                           onCurrencyChange={(currency)=> setTo(currency)}
-                          selectCurrency={from}
+                          selectCurrency={to}
                           amountDisable
                       />
                   </div>
